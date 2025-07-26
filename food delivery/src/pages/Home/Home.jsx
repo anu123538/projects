@@ -3,7 +3,7 @@ import './Home.css';
 import Header from '../../Components/Navbar/Header/Header';
 import ExploreMenu from '../../Components/Navbar/ExploreMenu/ExploreMenu';
 import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay';
-import React from 'react';
+import { StoreContext } from '../../context/StoreContext';
 
 const Home = () => {
 
