@@ -47,3 +47,19 @@
     border: 4px solid tomato;
     padding: 2px;
 }
+@media (max-width: 1050px){
+    .explore-menu-list-item img{
+        width: 20vw;
+        min-width: 120px;
+    }
+    .explore-menu-list-item p{
+        font-size: max(3vw, 16px);
+    }
+}
+@media (max-width: 600px){
+    .explore-menu-text{
+        width: 100%;
+        font-size: 14px;
+    }
+    
+}
